@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "symfony-admin-skeleton",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "symfony-admin-skeleton",
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle"
