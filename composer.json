@@ -5,6 +5,7 @@
     "description": "symfony-admin-skeleton",
     "autoload": {
         "psr-4": {
+            "AdminBundle\\": "src/AdminBundle",
             "AppBundle\\": "src/AppBundle"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]

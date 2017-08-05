@@ -1,0 +1,3 @@
+sonata_admin:
+    title:                    'symfony-admin-skeleton'
+    title_logo:               bundles/admin/images/logo.png
