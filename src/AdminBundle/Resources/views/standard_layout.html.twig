@@ -1,0 +1,12 @@
+{% extends 'SonataAdminBundle::standard_layout.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+    {# TODO: improve and implement this: http://symfony.com/doc/current/assetic/asset_management.html #}
+
+    {% stylesheets
+    '@SonataTranslationBundle/Resources/public/css/sonata-translation.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}"/>
+    {% endstylesheets %}
+{% endblock %}

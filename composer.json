@@ -14,6 +14,12 @@
         "psr-4": { "Tests\\": "tests/" },
         "files": [ "vendor/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php" ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/reecube/SonataTranslationBundle"
+        }
+    ],
     "require": {
         "php": ">=7.0",
         "doctrine/doctrine-bundle": "^1.6",
@@ -24,6 +30,9 @@
         "sensio/framework-extra-bundle": "^3.0.2",
         "sonata-project/admin-bundle": "^3.20",
         "sonata-project/doctrine-orm-admin-bundle": "^3.1",
+        "sonata-project/translation-bundle": "2.x-dev",
+        "stof/doctrine-extensions-bundle": "^1.2",
+        "symfony/assetic-bundle": "^2.8",
         "symfony/monolog-bundle": "^3.1.0",
         "symfony/polyfill-apcu": "^1.0",
         "symfony/swiftmailer-bundle": "^2.3.10",
