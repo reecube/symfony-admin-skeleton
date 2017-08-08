@@ -7,6 +7,8 @@ imports:
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
+    title: 'symfony-admin-skeleton'
+    logo: 'bundles/admin/images/logo.png'
 
 framework:
     #esi: ~
@@ -67,11 +69,3 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
-
-sonata_block:
-    default_contexts: [cms]
-    blocks:
-
-        # enable the SonataAdminBundle block
-        sonata.admin.block.admin_list:
-            contexts:   [admin]
